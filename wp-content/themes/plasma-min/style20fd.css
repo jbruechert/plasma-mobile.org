@@ -1,0 +1,873 @@
+/**
+ Theme Name:     Plasma Mobile Min
+ Theme URI:      http://plasma-phone.org/
+ Description:    Quest Child Theme
+ Author:         Plasma Team
+ Author URI:     http://plasma-phone.org/
+ Template:       quest
+ Version:        1.1.1
+ License:        GNU General Public License v2 or later
+ License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+**/ 
+
+/*---------------------------------------------------------
+Theme CSS
+-------------------------------------------------------- */
+
+@import url("../quest/style.css");
+
+
+body {
+    font-size: 15px;
+    }
+    
+span a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, p a, a {
+    color: #333;
+    text-shadow: 0 0px rgba(0, 0, 0, 0);
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+}
+    
+/* New header */
+.pageHeader {
+    background-color: #FCFCFC;
+    border-bottom: solid 1px rgba(0,0,0,.1);
+    background-clip: padding-box;
+    height: 70px;
+    position: relative;
+    z-index: 2;
+    margin: 0px 0px -1px;
+}
+
+.pageHeader .row {
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.logo {
+    padding: 15px 15px 7px 0;
+}
+
+#mega-menu-wrap-primary #mega-menu-primary {
+    margin-top: 40px;
+    clear:both;
+    display: block;
+}
+
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item.mega-current-menu-item > a, 
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item.mega-current-menu-ancestor > a {
+    background: #fff;
+    font-weight: normal;
+    text-decoration: none;
+    border-bottom: 3px solid #1D99F3;
+}
+
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item:first-child {
+    border-left: 1px solid rgba(0, 0, 0, 0.2) !important;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+
+.main-footer {
+    padding: 50px 0 25px 0;
+}
+
+.main-footer ul {
+    list-style: none;
+    padding-left: 0px;
+    line-height: 1.2;
+}
+
+.main-footer li, .main-footer li:last-child {
+    border-bottom: 0px;
+    border-top: 0px;
+}
+
+.main-footer li {
+    font-size: 0.9em;
+    padding: 0;
+}
+
+.main-footer h1, .main-footer h2, .main-footer h3 {
+    font-size: 20px;
+    line-height: 0.3em;
+    margin: 0;
+}
+
+.developerLinks {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 230px !important;
+    background-image: url("../../uploads/developers.png");
+    background-size: 210px 50px;
+    border-top: solid 1px rgba(0,0,0,.2);
+    border-bottom: solid 1px rgba(0,0,0,.2);
+    background-repeat: no-repeat;
+    height: 50px;
+    line-height: 50px;
+    box-sizing: padding-box;
+}
+
+
+
+a:focus {
+    color: #222222;
+}
+
+.button, input[type="submit"], #submit, .wpcf7-submit, .action-icon.normal:after, .action-icon.normal:hover, 
+.social-icon-container .social-icon:hover, .main-footer a.tag:hover, .pagination .current, .pagination>.active>a, 
+.pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, 
+.pagination>.active>span:focus, .main-navigation .navbar-toggle, .quest-gallery .quest-gallery-thumb .fa, 
+.sticky-post-label, .cd-top {
+    border-radius: 4px;
+}
+
+.button:hover, input[type="submit"]:hover, input[type="submit"]:active, 
+#submit:hover, .wpcf7-submit:hover, #submit:active, .wpcf7-submit:active, 
+.button-:active {
+    -webkit-box-shadow: 0 0 0px #fff !important;
+    box-shadow: 0 0 0px #fff !important;
+}
+
+.button {
+    padding: 0.80em 3.0em;
+    font-size: 20px;
+}
+
+.button.light-invert {
+    color: #333;
+    background: #fff;
+    border: 2px solid #333;
+}
+
+.button.light-invert a {
+    color: #333;
+}
+
+.button.wide {
+    width: 80%;
+    text-align: center;
+}
+
+.button.light-invert:hover, .button.light-invert a:hover {
+    color: #fff;
+    background: #333 !important;
+}
+
+.home .entry-header {
+display: none;
+}
+
+/*** Homepage style ***/
+
+
+/* Hero Section */
+
+.section-hero {
+    position: relative;
+    overflow-x: visible;
+    overflow-y: visible;
+    margin-top: -30px;
+    padding-bottom: 250px;
+    border-bottom-style: none;
+}
+
+.hero h2 {
+    color: #fff;
+    width: 100%;
+    font-size: 6em;
+    line-height: 0.9em;
+    font-weight: 400;
+    letter-spacing: -0.06em;
+    padding-top: 60px;
+}
+
+.hero-row {
+    position: relative;
+}
+
+.hero-row img {
+    position: absolute;
+    display: block;
+    overflow-x: visible;
+    overflow-y: visible;
+    min-width: 650px;
+}
+
+
+/* Features Section */
+
+.section-features {
+    position: relative;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.section-features-two {
+    max-width: 860px;
+}
+
+.section-features h2, .section-community h2 {
+    color: #333;
+    width: 100%;
+    font-size: 4em;
+    line-height: 0.9em;
+    font-weight: 400;
+    letter-spacing: -0.06em;
+}
+
+.section-features p, .section-community p {
+    font-size: 1.5em;
+    line-height: 1.3em;
+    letter-spacing: -0.04em;
+}
+
+.features-list-left h3 {
+    color: #2ebd62;
+}
+
+.features-list-right h3 {
+    color: #9b5ab5;
+}
+
+
+/* Grid Section */
+
+.grid {
+
+}
+
+.grid-blocks, .grid-blocks .textwidget {
+    height: 480px;
+}
+
+.grid-blocks h2 {
+    color: #e8d75c !important;
+    font-size: 5em;
+    line-height: 0.9em;
+    font-weight: 400;
+    letter-spacing: -0.06em;
+    padding: 60px 0 0 60px;
+    margin: 0;
+}
+
+.grid-blocks h3 {
+    font-size: 3em;
+    line-height: 0.9em;
+    font-weight: 400;
+    letter-spacing: -0.06em;
+    padding: 60px 0 0 60px;
+    margin: 0;
+    width: 60%;
+}
+
+.section-community {
+    position: relative;
+    overflow-x: visible;
+    overflow-y: visible;
+    margin-top: -30px;
+    margin-bottom: -55px;
+    padding-bottom: 470px;
+    border-bottom-style: none;
+}
+
+.section-community h2 {
+    color: #333;
+    width: 100%;
+    font-size: 3em;
+    line-height: 0.9em;
+    font-weight: 400;
+    letter-spacing: -0.06em;
+}
+
+.section-community p {
+    font-size: 1.2em;
+    line-height: 1.1em;
+    letter-spacing: 0.1em;
+}
+
+
+/*** Pages style ***/
+
+/* Remove page title */
+article.page h1.post-title {
+    display: none;
+}
+
+.pagelayout {
+    padding: 15px 15px 0;
+}
+
+.pagelayout h2 {
+    
+}
+
+.pagelayout-row {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.clear-img p, .accordion-title {
+    margin-bottom: 0;
+}
+
+.pagelayout-full img {
+    padding-top: 40px;
+}
+
+.pagelayout-full p {
+    padding: 0 15%;
+}
+
+
+/*** Apps Page ***/
+
+/* Remove margins from original table*/
+table, #appTables h2 {
+    margin: 0px;
+}
+			
+#appTables {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+			
+#appTables article + article {
+    border-top: solid 1px rgba(0,0,0,.1);
+    margin-top: 40px;
+}
+			
+#appTables article {
+    font-size: 18px;
+    background-color: #EFF0F1;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+			
+#appTables h2 {
+    text-align: center;
+    border-bottom: solid 1px rgba(0,0,0,.1);
+    padding: 10px;
+}
+			
+#appTables table {
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+}
+			
+#appTables thead {
+    font-size: 20px;
+    text-align: center;
+    border-bottom: solid 1px rgba(0,0,0,.1)
+}
+			
+#appTables thead th {
+    font-weight: 300;
+    padding: 5px;
+}
+
+/* Remove left borders */
+table th, table td {
+    border-left: 0px solid #fff;
+    border-top: 0px solid #ffF;
+    text-align: center;
+}
+			
+#appTables aside {
+    display: block;	
+    font-size: 14px;
+    font-style: italic;
+    color: #7f8c8d;
+    font-weight: normal;
+}
+			
+			
+#appTables tbody tr:nth-child(odd) {
+    background-color: #FAFAFA;
+}
+			
+#appTables table tbody td {
+    width: 15%;
+}
+			
+#appTables table tbody th {
+    width: 40%;
+    text-align: left;
+    padding-left: 20px !important;
+    font-weight: normal;
+}
+			
+#appTables table tbody td,
+#appTables table tbody th {
+    padding: 5px 0px
+}
+			
+#appTables .status-yes,
+#appTables .status-no,
+#appTables .status-some,
+#appTables .status-notes
+{
+    text-align: center;
+}
+			
+#appTables .status-yes {
+    position: relative;
+    color: rgba(0,0,0,0);
+}
+			
+#appTables .status-no {
+    position: relative;
+    color: rgba(0,0,0,0);
+}
+			
+			
+#appTables .status-yes:before,
+#appTables .status-no:before {
+    position: absolute;
+    display: block;
+    top: 5px;
+    left: 0px;
+    right: 0px;
+    bottom: 5px;			
+    font-size: 20px;			
+    font-family: 'plasmaMobile';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+			
+#appTables .status-yes:before {
+    content: "c";
+    color: #258e52;
+}
+			
+#appTables .status-no:before {
+    content: "X";
+    color: #c0392b;
+}
+			
+#appTables .status-some {
+    color: #f67400;
+}
+			
+#appTables .status-notes {
+    color: #7f8c8d;
+    font-size: 90%;
+    font-style: italic;
+}
+
+
+/*** Get it page ***/
+
+#deviceList {
+ 	max-width: 1000px;
+ 	margin: 0px auto;
+ }
+ 
+ #deviceList article {
+ 	position: relative;
+ 	background-color: #eff0f1;
+ 	border-radius: 3px;
+ 	border: solid 1px rgba(0,0,0,.1);
+ 	min-height: 100px;
+ 	background-image: url("content/devices/miscdevice.html");
+ 	background-size: 100px 100px;
+ 	background-position: 10px 10px;
+ 	background-repeat: no-repeat;
+ }
+ 
+ #deviceList article h2 {
+ 	font-size: 20px;
+ 	text-align: center;
+ }
+ 
+ #deviceList article h2 i {
+ 	color: #7f8c8d;
+ }
+ 
+ #deviceList article + article {
+ 	margin-top: 20px;
+ }
+ 
+ 
+ #deviceList .overview {
+ 	position: relative;
+ 	height: 120px;
+ 	padding: 20px 20px 20px 140px;
+ }
+ 
+ #deviceList .instructions {
+ 	display: none;
+ }
+ 
+ #deviceList dl {
+ 	position: relative;
+ 	width: 100%;
+ 	height: 40px;
+ 	box-sizing: border-box;
+ 	padding-top: 10px;
+ 	margin: 0px;
+ 	margin-top: 10px;
+ }
+ 
+ #deviceList dd {
+ 	position: absolute;
+ 	top: 15px;
+ 	height: 4px;
+ 	width: 16%;
+ 	display: block;
+ 	padding: 0px;
+ 	margin: 0px;
+ }
+ 
+ #deviceList dd:before {
+ 	content: "";
+ 	position: absolute;
+ 	top: 0px;
+ 	bottom: 0px;
+ 	left: 0px;
+ 	width: 100%;
+ 	background-color: #bdc3c7;
+ }
+ 
+ #deviceList dd:after {
+ 	content: "";
+ 	width: 20px;
+ 	height: 20px;
+ 	border-radius: 100%;
+ 	background-color: #eff0f1;
+ 	box-sizing: border-box;
+ 	border: solid 1px #bdc3c7;
+ 	position: absolute;
+ 	top: 50%;
+ 	right: 0px;
+ 	margin-top: -10px;
+ 	margin-right: -10px;
+ 	z-index: 2;
+ 	
+ 	font-size: 16px;
+ 	line-height: 18px !important;
+ 	text-align: center;
+ 	color: #FFF;
+ 	
+ 	font-family: 'plasmaMobile';
+ 	speak: none;
+ 	font-style: normal;
+ 	font-weight: normal;
+ 	font-variant: normal;
+ 	text-transform: none;
+ 	line-height: 1;
+
+ 	/* Better Font Rendering =========== */
+ 	-webkit-font-smoothing: antialiased;
+ 	-moz-osx-font-smoothing: grayscale;
+ }
+ 
+ #deviceList dd i {
+ 	position: absolute;
+ 	top: 100%;
+ 	left: 100%;
+ 	margin-top: 10px;
+ 	font-size: 10px;
+ 	color: #95a5a6;
+ 	white-space: nowrap;
+ 	text-align: center;
+ 	width: 200px;
+ 	margin-left: -100px;
+ }
+ 
+ #deviceList dd.supportChart-vexperimental { 
+ 	width: 0px;
+ 	left: 10%;
+ }
+ 	
+ #deviceList dd.supportChart-experimental  { left: 10%; }
+ #deviceList dd.supportChart-working      { left: 26%; }
+ #deviceList dd.supportChart-solid        { left: 42%; }
+ #deviceList dd.supportChart-good         { left: 58%; }
+ #deviceList dd.supportChart-excellent    { left: 74%; }
+ 
+ /* Excellent State */
+ #deviceList dl.state-excellent dd.supportChart-vexperimental:before,
+ #deviceList dl.state-excellent dd.supportChart-experimental:before,
+ #deviceList dl.state-excellent dd.supportChart-working:before,
+ #deviceList dl.state-excellent dd.supportChart-solid:before,
+ #deviceList dl.state-excellent dd.supportChart-good:before,
+ #deviceList dl.state-excellent dd.supportChart-excellent:before,
+ #deviceList dl.state-good dd.supportChart-vexperimental:before,
+ #deviceList dl.state-good dd.supportChart-experimental:before,
+ #deviceList dl.state-good dd.supportChart-working:before,
+ #deviceList dl.state-good dd.supportChart-solid:before,
+ #deviceList dl.state-good dd.supportChart-good:before,
+ #deviceList dl.state-solid dd.supportChart-vexperimental:before,
+ #deviceList dl.state-solid dd.supportChart-experimental:before,
+ #deviceList dl.state-solid dd.supportChart-working:before,
+ #deviceList dl.state-solid dd.supportChart-solid:before,
+ #deviceList dl.state-working dd.supportChart-vexperimental:before,
+ #deviceList dl.state-working dd.supportChart-experimental:before,
+ #deviceList dl.state-working dd.supportChart-working:before,
+ #deviceList dl.state-experimental dd.supportChart-vexperimental:before,
+ #deviceList dl.state-experimental dd.supportChart-experimental:before,
+ #deviceList dl.state-vexperimental dd.supportChart-vexperimental:before {
+ 	background-color: #27ae60;
+ }
+ 
+ #deviceList dl.state-excellent dd.supportChart-vexperimental:after,
+ #deviceList dl.state-excellent dd.supportChart-experimental:after,
+ #deviceList dl.state-excellent dd.supportChart-working:after,
+ #deviceList dl.state-excellent dd.supportChart-solid:after,
+ #deviceList dl.state-excellent dd.supportChart-good:after,
+ #deviceList dl.state-excellent dd.supportChart-excellent:after,
+ #deviceList dl.state-good dd.supportChart-vexperimental:after,
+ #deviceList dl.state-good dd.supportChart-experimental:after,
+ #deviceList dl.state-good dd.supportChart-working:after,
+ #deviceList dl.state-good dd.supportChart-solid:after,
+ #deviceList dl.state-good dd.supportChart-good:after,
+ #deviceList dl.state-solid dd.supportChart-vexperimental:after,
+ #deviceList dl.state-solid dd.supportChart-experimental:after,
+ #deviceList dl.state-solid dd.supportChart-working:after,
+ #deviceList dl.state-solid dd.supportChart-solid:after,
+ #deviceList dl.state-working dd.supportChart-vexperimental:after,
+ #deviceList dl.state-working dd.supportChart-experimental:after,
+ #deviceList dl.state-working dd.supportChart-working:after,
+ #deviceList dl.state-experimental dd.supportChart-vexperimental:after,
+ #deviceList dl.state-experimental dd.supportChart-experimental:after,
+ #deviceList dl.state-vexperimental dd.supportChart-vexperimental:after {
+ 	background-color: #2ecc71;
+ 	border-color: #27ae60;
+ }
+ 
+ #deviceList dl.state-vexperimental dd.supportChart-vexperimental:after { content: "c"; }
+ #deviceList dl.state-experimental  dd.supportChart-experimental:after { content: "c"; }
+ #deviceList dl.state-working      dd.supportChart-working:after { content: "c"; }
+ #deviceList dl.state-solid        dd.supportChart-solid:after { content: "c"; }
+ #deviceList dl.state-good         dd.supportChart-good:after { content: "c"; }
+ #deviceList dl.state-excellent    dd.supportChart-excellent:after { content: "c"; }
+ 
+ #deviceList #nexus5 {  background-image: url("http://netroid.net/plasma/wpmobile/wp-content/uploads/nexus5.png");  }
+ #deviceList #onePlusOne {  background-image: url("http://netroid.net/plasma/wpmobile/wp-content/uploads/oneplusone.png");  }
+ 
+ .accordion-title {
+     text-align: center;
+ }
+ 
+ .instructionsButton, .accordion-title {
+ 	width: 100%;
+ 	box-sizing: border-box;
+ 	background-color: #FAFAFA;
+ 	border: none;
+ 	border-top: solid 1px rgba(0,0,0,.1);
+ 	background-clip: padding-box;
+ 	padding: 10px 20px 10px 140px;
+ 	cursor: pointer;
+ 	outline:none;
+ 	border-bottom-left-radius: 2px;
+ 	border-bottom-right-radius: 2px;
+ 	color: #1D99F3;
+ }
+ 
+ .instructionsButton.active, .accordion-title:active {
+ 	border-bottom: solid 1px rgba(0,0,0,.1);
+ 	border-bottom-left-radius: 0px;
+ 	border-bottom-right-radius: 0px;
+ 	background-color: #FFF;
+ }
+ 
+ .instructionsButton:focus, ..accordion-title:focus {
+ 	outline: none;
+ }
+ 
+ .instructionsButton::-moz-focus-inner, .accordion-title::-moz-focus-inner {
+ 	border: 0;
+ }
+
+ .instructions {
+ 	padding: 40px;
+ 	font-size: 90%;
+ }
+ 
+ #deviceList .instructions {
+     display: block;
+ }
+
+
+ .instructions li + li {
+ 	margin-top: 20px;
+ }
+ 
+ .instructions li * + * {
+ 	margin-top: 5px !important;
+ }
+ 
+ .instructions li pre + * {
+ 	margin-top: 20px !important;
+ }
+
+ .instructions aside {
+ 	padding: 4px 10px;
+ 	background-color: #fdbc4b;
+ 	font-size: 90%;
+ 	border-radius: 2px;
+ 	border: solid 1px rgba(0,0,0,.1);
+ }
+
+ .instructions aside + aside {
+ 	margin-top: 10px;
+ }
+		
+ .instructions pre {
+ 	background-color: #31363b;
+ 	font-family: monospace;
+ 	color: #eff0f1;
+ 	white-space: pre;
+ 	overflow-x: auto;
+ 	width: 100%;
+ 	box-sizing: border-box;
+ 	border-radius: 2px;
+ 	padding: 20px;
+ 	margin: 0px;
+ }
+ 
+ .overview h2 {
+     margin-top: 0px;
+     margin-bottom: 0px;
+ }
+
+
+
+
+/*** RESPONSIVE ***/
+
+@media (min-width: 1200px) {
+    .container {
+        width: 980px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .grid-blocks h2 {
+        font-size: 4.5em;
+        padding: 60px 0 0 15px;
+        width: 80%;
+    }
+    .grid-blocks h3 {
+        font-size: 3.5em;
+        padding: 60px 0 0 15px;
+        width: 60%;
+    }
+    .grid-blocks, .grid-blocks .textwidget {
+        height: 400px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .grid-blocks h2 {
+        font-size: 3.5em;
+        padding: 60px 0 0 15px;
+        width: 80%;
+    }
+    .grid-blocks h3 {
+        font-size: 2.5em;
+        padding: 60px 0 0 15px;
+        width: 60%;
+    }
+    .grid-blocks, .grid-blocks .textwidget {
+        height: 320px;
+    }
+}
+
+@media (max-width: 991px) {
+    .main-navigation {
+        width: 65%;
+        position: absolute;
+        right: 0;
+        top: 15px;
+    }
+    
+    .footer-logo {
+        margin-bottom: 18px;
+        display: block;
+        clear: both;
+        width: 100% !important;
+    }
+    .button.wide {
+        width: auto;
+    }
+    
+    .section-hero {
+        position: relative;
+        overflow-x: visible;
+        overflow-y: visible;
+        margin-top: -107px;
+        padding-bottom: 250px;
+        border-bottom-style: none;
+    }
+    
+    .section-features {
+        margin-top: 500px;
+    }
+    
+    .section-features-two {
+        margin-top: 0px !important;
+    }
+    
+    .grid-blocks h2, .grid-blocks h3 {
+        font-size: 5em;
+        padding: 60px 0 0 120px;
+        width: 80%;
+    }
+    .grid-blocks, .grid-blocks .textwidget {
+        height: 480px;
+    }
+}
+
+@media (max-width: 767px) {
+    .site-branding h1.logo, .site-branding .site-title, 
+    .site-branding .site-description {
+        text-align: left !important;
+    }
+    .hero-row img {
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-header {
+        border-bottom: 1px solid;
+    }
+    .col-md-3 h1.logo {
+        text-align: center;
+        padding: 15px 15px 7px;
+    }
+    .hero-row img {
+        min-width: 100%;
+    }
+    .section-features {
+        margin-top: 150px;
+    }
+    .grid-blocks h2, .grid-blocks h3 {
+        font-size: 4em;
+        padding: 60px 0 0 20px;
+        width: 80%;
+    }
+    .developerLinks {
+        padding-left: 160px !important;
+        background-position: -62px 0px;
+    }
+}
+
