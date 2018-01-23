@@ -105,7 +105,7 @@ span a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, p a, a {
     padding-top: 0px !important;
     padding-bottom: 0px !important;
     padding-left: 230px !important;
-    background-image: url("../../uploads/developers.png");
+    background-image: url("/img/developers.png");
     background-size: 210px 50px;
     border-top: solid 1px rgba(0,0,0,.2);
     border-bottom: solid 1px rgba(0,0,0,.2);

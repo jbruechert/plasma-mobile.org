@@ -1,0 +1,39 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+    <link rel='dns-prefetch' href='http://s.w.org/' />
+    <link rel='stylesheet' id='jquery.prettyphoto-css' href='/plugins/wp-video-lightbox/css/prettyPhoto20fd.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='video-lightbox-css' href='/plugins/wp-video-lightbox/wp-video-lightbox20fd.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='siteorigin-panels-front-css' href='/plugins/siteorigin-panels/css/front-flex60a8.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='megamenu-css' href='/css/maxmegamenu/style0ec2.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='dashicons-css' href='/css/dashicons.min20fd.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='quest-all-css-css' href='/themes/quest/assets/css/plugins-all.min20fd.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='Quest-style-css' href='/themes/plasma-min/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='quest_google-fonts-css' href='https://fonts.googleapis.com/css?family=Oxygen:regular|Montserrat:300,regular|Open+Sans:600,300&amp;subset=latin' type='text/css' media='all' />
+    <link rel='stylesheet' id='easy_table_style-css' href='/plugins/easy-table/themes/default/stylef24c.css' type='text/css' media='all' />
+    <script type='text/javascript' src='/js/jquery/jqueryb8ff.js'></script>
+    <script type='text/javascript' src='/js/jquery/jquery-migrate.min330a.js'></script>
+    <script type='text/javascript' src='/plugins/wp-video-lightbox/js/jquery.prettyPhoto.min005e.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        	var vlpp_vars = {"prettyPhoto_rel":"wp-video-lightbox","animation_speed":"fast","slideshow":"5000","autoplay_slideshow":"false","opacity":"0.95","show_title":"false","allow_resize":"true","allow_expand":"false","default_width":"1280","default_height":"720","counter_separator_label":"\/","theme":"dark_square","horizontal_padding":"20","hideflash":"false","wmode":"opaque","autoplay":"false","modal":"false","deeplinking":"false","overlay_gallery":"true","overlay_gallery_max":"30","keyboard_shortcuts":"true","ie6_fallback":"true"};
+        	/* ]]> */
+    </script>
+    <script type='text/javascript' src='/plugins/wp-video-lightbox/js/video-lightbox005e.js'></script>
+    <script type='text/javascript' src='/js/imagesloaded.min55a0.js'></script>
+    <script type='text/javascript' src='/js/masonry.mind617.js'></script>
+    <script type='text/javascript' src='/themes/quest/assets/js/quest-and-plugins20fd.js'></script>
+    <style>
+        .post-thumbnail img[src$='.svg'] { width: 100%; height: auto; }
+    </style>
+    <link rel="shortcut icon" href="/favicon.png" />
+</head>
