@@ -13,31 +13,12 @@ layout: default
                             <div class="hero-row panel-widget-style panel-widget-style-for-29-0-0-0">
                                 <div class="textwidget">
                                     <h2>Plasma, in your pocket.</h2>
-                                    <div class="button light-invert wide">
-                                        <a id="5a675a5472ec0" rel="wp-video-lightbox" href="https://www.youtube.com/watch?v=auuQA0Q8qpM?rel=0?vq=hd1080&amp;width=1280&amp;height=720" title="">Video Intro</a>
-                                        <script>
-                                            /* <![CDATA[ */
-                                            jQuery(document).ready(function($){
-                                                $(function(){
-                                                    var width = $(window).innerWidth();
-                                                    var setwidth = 1280;
-                                                    var ratio = 0.5625;
-                                                    var height = 720;
-                                                    var link = 'https://www.youtube.com/watch?v=auuQA0Q8qpM?rel=0?vq=hd1080&amp;width=1280&amp;height=720';
-                                                    if(width < setwidth)
-                                                    {
-                                                        height = Math.floor(width * 0.5625);
-                                                        //console.log("device width "+width+", set width "+1280+", ratio "+0.5625+", new height "+ height);
-                                                        var new_url = wpvl_paramReplace('width', link, width);
-                                                        var new_url = wpvl_paramReplace('height', new_url, height);
-                                                        $("a#5a675a5472ec0").attr('href', new_url);
-                                                        //console.log(new_url);
-                                                    }    
-                                                });
-                                            });
-                                            /* ]]&gt; */
-                                        </script>
-                                    </div>
+
+                                    <!-- Video Modal -->
+                                    <button class="button light-invert wide video-modal-btn" data-video-id="auuQA0Q8qpM">Video Intro</button>
+                                    <script>
+                                        new ModalVideo(".video-modal-btn");
+                                    </script>
                                 </div>
                             </div>
                         </div>
