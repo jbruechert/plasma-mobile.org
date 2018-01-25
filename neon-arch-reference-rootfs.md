@@ -1,12 +1,12 @@
 ---
-title: Nexus 5/X
-permalink: /nexus-5/
+title: Flashing the Neon or Arch based image
+permalink: /neon-arch-reference-rootfs/
 layout: default
 ---
 
 ## Plasma Phone Reference System
 
-Recommended Device: **Nexus 5X (bullhead), Nexus 5 (hammerhead)**
+Supported Devices: **Nexus 5X (bullhead), Nexus 5 (hammerhead)**
 
 Needed software tools: **adb, fastboot**
 
@@ -68,4 +68,4 @@ The password to unlock is ‘1234’.
 desktop terminal is ‘phablet’, password is ‘1234’).
 
 See [more tips what to do after flashing
-here](http://plasma-mobile.org/tips/).
+here](/tips).
