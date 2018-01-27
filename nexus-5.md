@@ -1,6 +1,6 @@
 ---
 title: Nexus 5/X
-parmalink: /nexus-5
+permalink: /nexus-5/
 layout: default
 ---
 

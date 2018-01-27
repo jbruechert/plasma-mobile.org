@@ -1,6 +1,6 @@
 ---
 title: What's a Plasma Phone?
-parmalink: /what-is
+permalink: /what-is/
 layout: default
 ---
 

@@ -1,5 +1,5 @@
 ---
 layout: blog
 title: Plasma Mobile Blog
-permalink: /blog
+permalink: /blog/
 ---

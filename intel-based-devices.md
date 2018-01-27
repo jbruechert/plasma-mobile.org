@@ -1,6 +1,6 @@
 ---
 title: Intel based devices
-parmalink: /intel-based-devices
+permalink: /intel-based-devices/
 layout: default
 ---
 

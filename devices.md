@@ -1,6 +1,6 @@
 ---
 title: Devices
-parmalink: /devices
+permalink: /devices/
 layout: default
 ---
 

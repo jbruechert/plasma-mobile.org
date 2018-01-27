@@ -1,6 +1,6 @@
 ---
 title: General Tips
-parmalink: /tips
+permalink: /tips/
 layout: default
 ---
 
