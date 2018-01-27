@@ -15,7 +15,7 @@ Neon based reference rootfs (recommended)
 
 ![](/img/neon.svg){:width="100"}
 
-"Official" image, based on KDE Neon. Targetted at newer devices (with 1GB+ RAM).
+"Official" image, based on KDE Neon. Targeted at newer devices (with 1GB+ RAM).
 KDE Neon itself is based upon Ubuntu 16.04 (xenial), (not Ubuntu Touch).
 This image is based on the dev-unstable branch of KDE Neon, and always ships the latest versions of KDE frameworks, kwin and Plasma Mobile.
 This image uses Halium as hardware adaption layer.
@@ -44,7 +44,7 @@ postmarketOS
 
 ![](/img/pmOS.svg){:width="100"}
 
-Third-paty distribution especially (but not only) targetted at older devices, based on Alpine Linux.
+Third-paty distribution especially (but not only) targeted at older devices, based on Alpine Linux.
 
 PostmarketOS (pmOS), is a touch-optimized, pre-configured Alpine Linux that can be installed on smartphones and other mobile devices. The project is at very early stages of development and is not usable for most users yet.
 
