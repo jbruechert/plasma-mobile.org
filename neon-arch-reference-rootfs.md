@@ -48,10 +48,10 @@ The -p ***platform*** parameter currently accepts ***neon*** or
 It will download all files required and store them in cache subdir, e.g.
 for Nexus 5X (*bullhead)*:
 
--   pm-rootfs-20161025-140532.tar.gz (Plasma Mobile in an LXC container)
+-   pm-rootfs-20180124-113114.tar.gz (Plasma Mobile rootfs)
 -   recovery.img (TWRP recovery img)
--   system.img (AOSP system img)
--   boot.img (AOSP boot img)
+-   system.img (Halium image containing the hardware adaption for each device)
+-   boot.img (Halium initrd)
 
 Then the TWRP Recovery img is used as a tool to flash all other
 components to the target device.
