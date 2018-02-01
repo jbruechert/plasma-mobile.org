@@ -14,4 +14,7 @@ baseurl: ""
 url: ""
 
 # Build settings
+plugins:
+  - jekyll-feed
+
 markdown: kramdown
